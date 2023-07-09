@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    margin: 2em;
+    padding: 1em;
+}
+
+.count{
+    font-size: 5em;
+}
+.btn{
+    padding: 1em;
+    margin: 1em;
+    text-transform: uppercase;
+    background-image: none;
+    border-radius: 5px;
+}
